@@ -18,15 +18,16 @@ A Python-based system monitoring and alerting tool that checks CPU, memory, disk
 - Install dependencies: pip install psutil
 
 ## 🚀 File Structure
-├── monitor.py # Main monitoring script
-├── config.json # Configuration for thresholds, services, and email
-├── logs.txt # Log file for monitoring results (auto-generated)
+- monitor.py # Main monitoring script
+-  config.json # Configuration for thresholds, services, and email
+-  logs.txt # Log file for monitoring results (auto-generated)
 
 
 ## 🚀 Setup
 ```bash
 pip install -r requirements.txt
 python monitor.py --mode email
+```bash
 
 ## 🚀 Sample Output (Safe)
 [2025-08-08 11:18:34] ---- SYSTEM MONITOR START ----
