@@ -19,18 +19,18 @@ A Python-based system monitoring and alerting tool that checks CPU, memory, disk
 
 ## 🚀 File Structure
 - monitor.py # Main monitoring script
--  config.json # Configuration for thresholds, services, and email
--  logs.txt # Log file for monitoring results (auto-generated)
+- config.json # Configuration for thresholds, services, and email
+- logs.txt # Log file for monitoring results (auto-generated)
 
 ## 🚀 Sample Output on Command Prompt (Safe)
-PS C:\Users\USER\Desktop\infrastructure_monitoring_tool> python monitor.py --mode email
-[LOG] 2025-08-08 11:06:15 | CPU: 2.10% | Memory: 56.40% | Disk: 62.80%
-[INFO] System within safe limits. No alert sent.
+- infrastructure_monitoring_tool> python monitor.py --mode email
+- [LOG] 2025-08-08 11:06:15 | CPU: 2.10% | Memory: 56.40% | Disk: 62.80%
+- [INFO] System within safe limits. No alert sent.
 
 ## 🚀 Sample Output on Command Prompt (Risk)
-PS C:\Users\USER\Desktop\infrastructure_monitoring_tool> python monitor.py --mode email
-[LOG] 2025-08-08 11:04:47 | CPU: 2.30% | Memory: 56.20% | Disk: 62.80%
-[INFO] Alert sent due to high usage.
+- infrastructure_monitoring_tool> python monitor.py --mode email
+- [LOG] 2025-08-08 11:04:47 | CPU: 2.30% | Memory: 56.20% | Disk: 62.80%
+- [INFO] Alert sent due to high usage.
 
 
 ## 🚀 Sample Output on log (Safe)
