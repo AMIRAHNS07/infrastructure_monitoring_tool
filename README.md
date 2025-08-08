@@ -2,6 +2,10 @@
 
 A Python-based system monitoring and alerting tool that checks CPU, memory, disk usage, and service status. If resource usage exceeds defined thresholds, it sends an email alert.
 
+⚠ Disclaimer
+This tool is intended for monitoring and alerting purposes only.
+Ensure you configure email and thresholds responsibly to avoid excessive alerts.
+
 ## ✅ Features
 - CPU, Memory, and Disk Usage Monitoring
 - Windows Service Status Check (example: Spooler, W32Time)
