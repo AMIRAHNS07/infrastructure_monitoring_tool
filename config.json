@@ -14,7 +14,8 @@
         "smtp_port": 587,
         "sender_email": "monitor@example.com",
         "receiver_email": "admin@example.com",
-        "username": "monitor@example.com",
-        "password": "YOUR_PASSWORD"
+        "username": "your_email@example.com",
+        "password": "YOUR_APP_PASSWORD"
     }
 }
+
