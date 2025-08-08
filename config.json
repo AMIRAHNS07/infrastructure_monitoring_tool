@@ -9,8 +9,8 @@
         "windows": ["Spooler", "W32Time"]
     },
     "email_alerts": {
-        "enabled": false,
-        "smtp_server": "smtp.example.com",
+        "enabled": true,
+        "smtp_server": "smtp.gmail.com",
         "smtp_port": 587,
         "sender_email": "monitor@example.com",
         "receiver_email": "admin@example.com",
