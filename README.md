@@ -22,13 +22,6 @@ A Python-based system monitoring and alerting tool that checks CPU, memory, disk
 -  config.json # Configuration for thresholds, services, and email
 -  logs.txt # Log file for monitoring results (auto-generated)
 
-
-## 🚀 Setup
-```bash
-pip install -r requirements.txt
-python monitor.py --mode email
-```bash
-
 ## 🚀 Sample Output (Safe)
 [2025-08-08 11:18:34] ---- SYSTEM MONITOR START ----
 [2025-08-08 11:18:34] CPU Usage: 1.70%
@@ -50,3 +43,9 @@ python monitor.py --mode email
 [2025-08-08 11:04:47] ⚠ High Memory usage: 56.2%
 [2025-08-08 11:04:47] ⚠ High Disk usage: 62.8%
 [2025-08-08 11:04:47] ---- SYSTEM MONITOR END ----
+
+
+## 🚀 Setup
+```bash
+pip install -r requirements.txt
+python monitor.py --mode email or python monitor.py --mode console
