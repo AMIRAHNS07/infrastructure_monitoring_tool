@@ -24,11 +24,17 @@ A Python-based system monitoring and alerting tool that checks CPU, memory, disk
 
 ## 🚀 Sample Output (Safe)
 [2025-08-08 11:18:34] ---- SYSTEM MONITOR START ----
+
 [2025-08-08 11:18:34] CPU Usage: 1.70%
+
 [2025-08-08 11:18:34] Memory Usage: 55.90%
+
 [2025-08-08 11:18:34] Disk Usage: 62.80%
+
 [2025-08-08 11:18:34] Service: Spooler - Status: Running
+
 [2025-08-08 11:18:34] Service: W32Time - Status: Running
+
 [2025-08-08 11:18:34] ---- SYSTEM MONITOR END ----
 
 ## 🚀 Sample Output (Risk)
